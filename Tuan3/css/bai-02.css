@@ -1,0 +1,49 @@
+#demotext {
+    display: inline;
+    font-size: 50px;
+    text-shadow: -2px -4px 0px #ff169c, 0px 5px 0px rgb(123 194 33 / 84%);
+    color: #333333;
+    background: #FFFFFF;
+    }
+#insettext {
+    display: inline;
+    font-size: 50px;
+    text-shadow: #e0e0e0 1px 1px 0, 2px 2px 2px rgba(206,89,55,0);
+    color: #970F7F;
+    background: #FFD2E2;
+    }
+#doubletext {
+    display: inline;
+    font-size: 50px;
+    text-shadow: 0px -19px 0px #FF1A8D;
+    color: #333333;
+    background: #FFFFFF;
+    }
+#glossytext {
+    display: inline;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(255,209,90,0), 4px -1px 15px rgba(255,209,90,0.57);
+    color: #DAA815;
+    background: #FFFFFF;
+    }
+#grungetext {
+    display: inline;
+    font-size: 50px;
+    text-shadow: -4px 2px 0px #FF0000;
+    color: #1E0100;
+    background: #000000;
+    }
+#neontext {
+    display: inline;
+    font-size: 50px;
+    text-shadow: -2px -7px 20px rgba(255,255,255,0), -2px -7px 20px rgba(255,255,255,0.25), -2px 21px 20px rgba(255,255,255,0.19), -2px 21px 20px rgba(255,255,255,0.19);
+    color: #2C77DE;
+    background: #232323;
+    }
+#cooltext {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), -2px 21px 20px rgba(255,255,255,0);
+    color: #FFFFFF;
+    background: #8D0C9F;
+    }
