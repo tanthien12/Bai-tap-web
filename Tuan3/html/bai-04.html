@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 04</title>
+    <style>
+    * {
+        font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    }
+
+    div {
+        width: 300px;
+        height: 235px;
+        box-shadow: 0 0 10px rgb(0 0 0 / 70%);
+        margin: 50px;
+    }
+
+    .texthead {
+        color: #993738;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+    #table {
+        border-collapse: collapse;
+        width: 380px;
+        margin: 10px;
+        border: 1px solid rgb(177, 55, 14);
+    }
+
+    #table tr, td {
+        border: 1px solid rgb(177, 55, 14);
+    }
+
+    .heading {
+        background-color: #993738;
+        color: #fff;
+    }
+
+    .chan td:last-child, 
+    .le td:last-child {
+        float: right;
+        padding-right: 4px;
+    }
+
+    .chan td:first-child, 
+    .le td:first-child,
+    .heading th:first-child {
+        padding-left: 4px;
+    }
+
+    .heading th:first-child {
+        float: left;
+    }
+
+    .le td:last-child {
+        border: 1px solid #fff;
+    }
+
+    .chan td:last-child {
+        border: 1px solid #ddd;
+    }
+
+    .chan {
+        background-color: #ddd;
+    }
+
+    #table .chan td:last-child {
+        margin-right: 0;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="texthead">Exercise example</p>
+        <table>
+            <tr class="heading">
+                <th>Region</th>
+                <th>Percentage</th>
+            </tr>
+            <tr class="le">
+                <td>New England</td>
+                <td>12%</td>
+            </tr>
+            <tr class="chan">
+                <td>Mid-Atlantic</td>
+                <td>19%</td>
+            </tr>
+            <tr class="le">
+                <td>South and Puerto Rico</td>
+                <td>15%</td>
+            </tr>
+            <tr class="chan">
+                <td>Midwest and Plains States</td>
+                <td>12%</td>
+            </tr>
+            <tr class="le">
+                <td>Southwest and Mountain</td>
+                <td>10%</td>
+            </tr>
+            <tr class="chan">
+                <td>West, Alaska, and Hawai</td>
+                <td>20%</td>
+            </tr>
+            <tr class="le">
+                <td>Abroad</td>
+                <td>13%</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
