@@ -1,0 +1,26 @@
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header__left{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    list-style: none;
+    font-weight: 500;
+}
+.menu-item{
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.menu-item-color{
+    color: #37c38a;
+}
+
+.header__right{
+    display: flex;
+
+}
