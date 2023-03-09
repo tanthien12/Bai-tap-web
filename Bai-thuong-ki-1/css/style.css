@@ -24,3 +24,17 @@
     display: flex;
 
 }
+
+/*----------------------------*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-container {
+    display: flex;
+    margin: 20px 50px;
+  }
+
+    
