@@ -212,7 +212,9 @@
 }
 
 /* Ingredients-container */
-
+.ingredients{
+  margin-bottom: 50px;
+} 
 .ingredients-container {
   display: flex;
   flex-wrap: wrap;
@@ -249,6 +251,33 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+}
+
+/* how-to-use */
+
+.how-to-use {
+  position: relative;
+  text-align: left;
+}
+
+.image-video {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.watch-video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(16, 14, 14);
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
   
