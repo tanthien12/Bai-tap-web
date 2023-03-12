@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__left">
+        <div class="header">
+            <div class="header-left">
                 <ul class="menu">
                     <li class="menu-item menu-item-color">Shop</li>
                     <li class="menu-item">Offer</li>
@@ -18,15 +18,15 @@
                     <li class="menu-item">Blog</li>
                 </ul>
             </div>
-            <div class="logo">
+            <div class="header-middle">
                 <img src="../img/Image 1 (13).png" alt="">
             </div>
-            <div class="header__right">
-                <input type="search" placeholder="Search product...">
+            <div class="header-right">
+                <input type="search" placeholder="Search product..." class="header-search">
                 <img src="../img/Button 1.png" alt="">
                 <img src="../img/Button 1 (1).png" alt="">
             </div>
-        </header>
+          </div>
 
         <div class="container">
             
@@ -45,45 +45,67 @@
                 <div class="product-info">
                     <h2 class="product-name">Product product-name</h2>
                     <p class="product-description">Aliquip fugiat ipsum nostrud ex eu incididunt</p>
-                    <p class="product-price">Giá bán: $50</p>
+                    <p class="product-price">$50 <span class="product-price-1">$35</span></p>
                     <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit assumenda accusantium hic vel rem quos aliquam nemo quaerat numquam!</p>
-                    <button class="add-to-cart-btn"><img src="../img/Button 1 (2).png" alt="" width="10px"> Add to bag</button>
-                    <button class="checkout-btn">Checkout</button>
+                    <div class="check">
+                      <div><img src="../img/Check circle 1.png" alt=""></div>
+                      <div class="check-contain">Free shipping on orders over $49USD</div>
+                    </div>
+                    <div class="check">
+                      <div><img src="../img/Check circle 1.png" alt=""></div>
+                      <div class="check-contain">Free + easy returns</div>
+                    </div>
+                    <div class="Choose">
+                      <label for="">Choose size:</label>
+                      <br>
+                      <select class="Choose-size">
+                        <option>50.00ML</option>
+                        <option>75.00ML</option>
+                        <option>100.00ML</option>
+                      </select>
+                    </div>
+                    <div class="button-product">
+                      <button class="add-to-cart-btn"><img src="../img/Button 1 (2).png" alt="" width="10px"> Add to bag</button>
+                      <button class="checkout-btn">Checkout</button>
+                    </div>
+                    
                 </div>
             </div>
 
             <!--Product container 2-->
+            <h1>Related products</h1>
             <div class="product-container-2">
-                <div class="product">
-                  <img src="../img/Image 1 (5).png" alt="Product 1">
-                  <div class="product-name">Sản phẩm 1</div>
-                  <div class="product-desc">Mô tả sản phẩm 1</div>
-                  <div class="product-price-cart">
-                    <div class="product-price">$100</div>
-                    <div class="product-price1">$100</div>
-                    <div class="add-to-cart"><img src="../img/Button 1 (2).png" alt="Add to cart"></div>
-                  </div>
-                 
+              
+              <div class="product">
+                <img src="../img/Image 1 (5).png" alt="Product 1">
+                <div class="product-name">Sản phẩm 1</div>
+                <div class="product-desc">Mô tả sản phẩm 1</div>
+                <div class="product-price-cart">
+                  <div class="product-price">$100</div>
+                  <div class="product-price1">$100</div>
+                  <div class="add-to-cart"><img src="../img/Button 1 (2).png" alt="Add to cart"></div>
                 </div>
-                <div class="product">
-                  <img src="../img/Image 1 (6).png" alt="Product 2">
-                  <div class="product-name">Sản phẩm 2</div>
-                  <div class="product-desc">Mô tả sản phẩm 2</div>
-                  <div class="product-price-cart">
-                    <div class="product-price">$200</div>
-                    <div class="product-price1">$150</div>
-                    <div class="add-to-cart"><img src="../img/Button 1 (2).png" alt="Add to cart"></div>
-                  </div>
+                
+              </div>
+              <div class="product">
+                <img src="../img/Image 1 (6).png" alt="Product 2">
+                <div class="product-name">Sản phẩm 2</div>
+                <div class="product-desc">Mô tả sản phẩm 2</div>
+                <div class="product-price-cart">
+                  <div class="product-price">$200</div>
+                  <div class="product-price1">$150</div>
+                  <div class="add-to-cart"><img src="../img/Button 1 (2).png" alt="Add to cart"></div>
                 </div>
-                <div class="product">
-                  <img src="../img/Image 1 (7).png" alt="Product 3">
-                  <div class="product-name">Sản phẩm 3</div>
-                  <div class="product-desc">Mô tả sản phẩm 3</div>
-                  <div class="product-price-cart">
-                    <div class="product-price">$300</div>
-                    <div class="product-price1">$250</div>
-                    <div class="add-to-cart"><img src="../img/Button 1 (2).png" alt="Add to cart"></div>
-                  </div>
+              </div>
+              <div class="product">
+                <img src="../img/Image 1 (7).png" alt="Product 3">
+                <div class="product-name">Sản phẩm 3</div>
+                <div class="product-desc">Mô tả sản phẩm 3</div>
+                <div class="product-price-cart">
+                  <div class="product-price">$300</div>
+                  <div class="product-price1">$250</div>
+                  <div class="add-to-cart"><img src="../img/Button 1 (2).png" alt="Add to cart"></div>
+                </div>
                 </div>
                 <div class="product">
                   <img src="../img/Image 1 (8).png" alt="Product 4">
