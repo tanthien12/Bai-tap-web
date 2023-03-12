@@ -147,5 +147,36 @@
     cursor: pointer;
   }
 
+  /*Product container 3*/
+  .product-container3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.item {
+  padding: 10px;
+  flex: 1;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #31d795;
+}
+
+.item-benefits{
+  background-color: #c5e6d9;
+}
+
+.divider {
+  width: 2px;
+  height: 20px;
+  background-color: #c5e6d9;
+  margin: 0px;
+}
+
+
   
     
