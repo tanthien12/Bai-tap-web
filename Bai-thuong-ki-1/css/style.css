@@ -95,6 +95,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
+    margin-bottom: 50px;
   }
   .product {
     width: 23%;
@@ -152,7 +153,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
 }
 
 .item {
@@ -176,6 +179,37 @@
   background-color: #c5e6d9;
   margin: 0px;
 }
+
+/* Benetits container */
+
+.benetits-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.benetits-content {
+  flex: 1;
+}
+
+.benetits-image {
+  flex: 1;
+}
+
+.section {
+  margin-bottom: 20px;
+  width: 420px;
+}
+
+.section h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section p {
+  font-size: 16px;
+}
+
 
 
   
