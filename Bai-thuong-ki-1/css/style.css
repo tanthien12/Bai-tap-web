@@ -51,6 +51,22 @@
     display: flex;
     margin-top: 50px;
   }
+
+.links-page{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  
+}
+
+.link-page{
+  color: #31d795;
+}
+
+.link-img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .product-image1{
   width: 100px;
   margin-bottom: 10px;
@@ -64,6 +80,27 @@
   font-size: 70%;
   color: #767171;
 }
+
+.product-review{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ .product-image2{
+  position: relative;
+ }
+
+ .best-saler-image2{
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  background-color: orange;
+  border-radius: 20px;
+  align-content: center;
+  padding: 5px;
+  
+ }
 
 .check{
   display: flex;
@@ -79,6 +116,17 @@
   margin-bottom: 10px;
 }
 
+.quantily{
+  margin-bottom: 10px;
+}
+
+.quantily-button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+}
+
 .button-product{
   display: flex;
   justify-content: space-between;
@@ -87,7 +135,19 @@
 .add-to-cart-btn,
 .checkout-btn{
   width: 48%;
-  height: 30px;
+  height: 50px;
+  border: 1px solid #459d7a;
+  align-content: center;
+}
+
+.add-to-bag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkout-btn{
+  background-color: #459d7a;
+  color: #fff;
 }
  /* Product container 2*/
 
