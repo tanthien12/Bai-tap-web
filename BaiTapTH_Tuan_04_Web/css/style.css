@@ -70,6 +70,86 @@
     background-color: #554b4b;
     margin: 0px 10px;
 }
+
+/*---------*/
+.image-container-box1{
+    margin-top: 30px;
+    position: relative;
+}
+.image-container-box1 .img-big img{
+    width: 100%;
+}
+
+.image-info{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    align-items: center;
+    background-color: #6e6565;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dot-live{
+    padding: 3px;
+    width: 2px;
+    height: 2px;
+    margin-right: 5px;
+    border-radius: 100%;
+    background-color: #1ddf3e;
+}
+.image-info-text{
+    color: #fff;
+}
+.mic-color{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+/*-------------*/
+.container-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box2-metting1{
+    width: 30%;
+}
+
+.img-live{
+    position: relative;
+}
+
+.img-mic{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img-info{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #6e6565;
+    height: 20px;
+    width: auto;
+    
+
+}
+
+.mic-grey img{
+    height: 30px;
+    width: auto;
+}
 #right {
     width: 440px;
     background-color: aqua;
