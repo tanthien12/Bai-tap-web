@@ -114,6 +114,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .box2-metting1{
@@ -155,7 +156,23 @@
     background-color: aqua;
     /* margin: 20px 30px; */
 }
+/* cotainer-box3 */
+.cotainer-box3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 130px;
+    
+}
 
+.box3-text{
+    background-color: #f32055;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+
+}
 
 
 #left {
