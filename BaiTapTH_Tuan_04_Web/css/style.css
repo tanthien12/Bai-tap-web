@@ -205,6 +205,29 @@
     border-radius: 100%;
     margin-left: 5px;
 }
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.image-name{
+    display: flex;
+    align-items: center;
+}
+
+.image-name img{
+    margin-right: 5px;
+}
+
+.btn-live{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
 #left {
     width: 90px;
     height: 870px;
