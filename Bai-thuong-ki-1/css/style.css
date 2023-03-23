@@ -1,6 +1,6 @@
 .wrapper{
-  margin-left: 150px;
-  margin-right: 150px;
+  /* margin-left: 150px;
+  margin-right: 150px; */
 }
 .header ul, li{
   margin: 0px;
@@ -13,6 +13,8 @@
     flex-wrap: wrap;
     height: 50px;
     /* background-color: #37c38a; */
+    margin-left: 150px;
+  margin-right: 150px;
 }
 .header-left{
     display: flex;
@@ -43,8 +45,8 @@
 
 /*----------------------------*/
 .container{
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .product-container-1 {
@@ -95,7 +97,7 @@
   position: absolute;
   left: 300px;
   top: 0px;
-  background-color: orange;
+  background-color:  #edbc63;
   border-radius: 20px;
   align-content: center;
   padding: 5px;
@@ -158,6 +160,7 @@
     margin-bottom: 50px;
   }
   .product {
+    position: relative;
     width: 23%;
     margin-bottom: 30px;
     border: 1px solid #ccc;
@@ -187,6 +190,12 @@
     align-items: center;
     
   }
+  .product-price-box{
+    display: flex;
+    width: 120px;
+    align-items: center;
+    justify-content: space-between;
+  }
   .product-price {
     font-weight: bold;
     font-size: 2rem;
@@ -197,6 +206,7 @@
     font-weight: bold;
     font-size: 1rem;
     text-align: left;
+    color: #767171;
 
   }
 
@@ -206,6 +216,17 @@
   .add-to-cart img {
     max-width: 50px;
     cursor: pointer;
+  }
+
+  .product-saller{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background-color: #edbc63;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
   }
 
   /*Product container 3*/
@@ -571,18 +592,20 @@
 /* Footer */
 
 .footer{
+  display: flex;
+  justify-content: space-between;
   background-color: black;
   display: flex;
   color: white;
-  justify-content: space-around;
 }
 
 .footer-left{
-  flex: 1;
+  width: 500px;
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 150px;
 }
+
  
 .footer-info{
     display: flex;
@@ -599,19 +622,25 @@
 }
 
 .footer-right{
-  flex: 1;
-  margin-right: 50px;
-  margin-left: 150px;
+  /* flex: 1; */
+  width: 450px;
+  margin-right: 150px;
 }
 
 .email{
   display: flex;
   height: 40px;
+  width: 400px;
   margin-bottom: 10px;
+  width: 300px;
+}
+.email_{
+
   width: 300px;
 }
 
 .subscribe{
+  width: 100px;
   border: 1px solid #459d7a;
   background-color: #459d7a;
   color: #fff;
