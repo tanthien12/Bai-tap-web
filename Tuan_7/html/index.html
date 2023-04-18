@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px auto;
+        }
+        .container{
+            width: 700px;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row mb-3 mt-3 text-center">
+            <div class="col-12">
+                <h1>ĐĂNG KÝ TÀI KHOẢN</h1>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Tên đăng nhập:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="txtname" id="txtname" placeholder="Nhập vào họ tên(bắt buộc nhập)" class="form-control">
+            </div>
+            <div class="col-1 text-danger ">
+                <span id="err1">&#42</span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Mật khẩu:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="txtname" id="txtname" placeholder="Nhập vào mật khẩu" class="form-control">
+            </div>
+            <div class="col-1 text-danger">
+                <span id="err1">&#42</span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Nhập lại mật khẩu:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="txtname" id="txtname" placeholder="Nhập vào xác nhập mật khẩu" class="form-control">
+            </div>
+            <div class="col-1 text-danger">
+                <span id="err1">&#42</span>
+            </div>
+        </div>
+        <div class="row mb-5 mt-5">
+            <div class="col-12 text-center">
+                <h4>THÔNG TIN CÁ NHÂN</h4>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Họ và tên:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="txtname" id="txtname" placeholder="Nhập vào họ tên (bắt buộc nhập)" class="form-control">
+            </div>
+            <div class="col-1 text-danger">
+                <span id="err1">&#42</span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Ngày sinh:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="txtname" id="txtname" placeholder="mm/dd/yyyy" >
+            </div>
+            <div class="col-1">
+                <span id="err1"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Giới tính:</label>
+            </div>
+            <div class="col-7">
+                <input type="radio" name="check-sex" id="check-sex"> <label for="">Nam</label>
+                <input type="radio" name="check-sex" id="check-sex"> <label for="">Nữ</label>
+            </div>
+            <div class="col-1">
+                <span id="err1"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Địa chỉ:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="txtname" id="txtname" placeholder="Nhập vào địa chỉ" class="form-control">
+            </div>
+            <div class="col-1">
+                <span id="err1"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Điện thoại:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="numberphone" id="numberphone" placeholder="Nhập vào số điện thoại (9-10 số)" class="form-control">
+            </div>
+            <div class="col-1">
+                <span id="err1"></span>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-4 text-right">
+                <label for="">Email:</label>
+            </div>
+            <div class="col-7">
+                <input type="text" name="numberphone" id="numberphone" placeholder="Nhập vào Email cá nhân dạng ten@congty.com" class="form-control">
+            </div>
+            <div class="col-1">
+                <span id="err1"></span>
+            </div>
+        </div>
+        <div class="row mb-3 mt-3">
+            <div class="col-7 text-right">
+                <input type="submit" value="Đăng ký" class="text-bg-dark">
+            </div>
+            <div class="col-5 ">
+                <input type="submit" value="Huỷ" class="text-bg-dark">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
